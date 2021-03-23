@@ -4,4 +4,4 @@ Docker installation for github actions
 
 Example usage
 ---
-uses: clymate/docker-action@v1
+uses: cylmat/docker-action@v1
