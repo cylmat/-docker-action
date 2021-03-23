@@ -1,0 +1,21 @@
+# action.yml
+
+# https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action
+name: 'Docker action'
+description: 'Install Docker cli'
+
+#inputs:
+#  arg:  # id of input
+#    description: 'Arg'
+#    required: false
+#    default: 'arg'
+    
+outputs:
+  time: # id of output
+    description: 'The current time'
+    
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  #args:
+  #  - ${{ inputs.who-to-greet }}
